@@ -1,0 +1,237 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Bookings/Gell-All-Flights",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineBookingService",
+      "UseServiceDiscovery": true,
+
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5222
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/Get-Flights",
+      "UpstreamHttpMethod": [ "Get" ]
+      
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Bookings/insert-booking-details",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineBookingService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5222
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/Book-Flights",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Bookings/cancel-ticket/{TicketID}",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineBookingService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5222
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/cancel-ticket/{TicketID}",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Bookings/pnr-ticket/{TicketID}",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineBookingService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5222
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/PrintTicket/{TicketID}",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Bookings/get-all-Tickets",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineBookingService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5222
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/Ticket-History",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Inventory/search-Flight",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineInventoryService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5008
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/search-Flight",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Inventory/get-Flight-byID/{userid}",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineInventoryService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5008
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/search-Flight-ID/{userid}",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Inventory/Add-Flight",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineInventoryService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5008
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/AddNewFlight",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Inventory/cancel-Flight",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineInventoryService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5008
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/BlockFlight",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Inventory/get-all-Airlines",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineInventoryService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5008
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/GetAllAirlines",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Inventory/Add-Airline",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineInventoryService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5008
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/AddAirLine",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Inventory/cancel-Airline",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineInventoryService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5008
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/cancelAirline",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/get-all-users",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineAuthenticationService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5180
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/GetUsers",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/registor",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineAuthenticationService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5180
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/UserRegistration",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/Login",
+      "DownstreamScheme": "http",
+      "ServiceName": "AirlineAuthenticationService",
+      "UseServiceDiscovery": true,
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 5180
+      //  }
+      //],
+      "UpstreamPathTemplate": "/api/gatway/UserLogin",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    }
+
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5085"
+  }
+}
