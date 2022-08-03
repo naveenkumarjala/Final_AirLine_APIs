@@ -7850,11 +7850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cogdotnet1086\\source\\repos\\Airline.Inventory\\Airline.Inventory.csproj",
+      "projectUniqueName": "C:\\Users\\cogdotnet1086\\source\\repos\\FlightBookingsAPI\\Airline.Inventory\\Airline.Inventory.csproj",
       "projectName": "Airline.Inventory",
-      "projectPath": "C:\\Users\\cogdotnet1086\\source\\repos\\Airline.Inventory\\Airline.Inventory.csproj",
+      "projectPath": "C:\\Users\\cogdotnet1086\\source\\repos\\FlightBookingsAPI\\Airline.Inventory\\Airline.Inventory.csproj",
       "packagesPath": "C:\\Users\\cogdotnet1086\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cogdotnet1086\\source\\repos\\Airline.Inventory\\obj\\",
+      "outputPath": "C:\\Users\\cogdotnet1086\\source\\repos\\FlightBookingsAPI\\Airline.Inventory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

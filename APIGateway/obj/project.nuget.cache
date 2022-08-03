@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UtS0Z2/nUbn/Y/AN0rbqx/d8+QmuNkQVqWUbGu86f4iEO7ZaQMzrW8umIubxNJhqbRevzTGrfjQiUObLMQy+mw==",
+  "dgSpecHash": "hR1s7XFzHrAzvhMMmZwtbe29zB64Y2sPTggTwZcsKvjTTjo6HGBrZg9uMT8nf8uCMY+76/pz4FMEe3K4aoXKIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cogdotnet1086\\source\\repos\\FlightBookingAPI\\APIGateway\\APIGateway.csproj",
+  "projectFilePath": "C:\\Users\\cogdotnet1086\\source\\repos\\FlightBookingsAPI\\APIGateway\\APIGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cogdotnet1086\\.nuget\\packages\\consul\\1.6.10.6\\consul.1.6.10.6.nupkg.sha512",
     "C:\\Users\\cogdotnet1086\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
