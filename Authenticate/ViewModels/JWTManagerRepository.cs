@@ -1,15 +1,9 @@
 ﻿using Authenticate.DBContext;
 using Authenticate.Interfaces;
-using Authenticate.ViewModels;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Authenticate.ViewModels
 {
@@ -21,22 +15,47 @@ namespace Authenticate.ViewModels
         //     { "user2","password2"}
 
         //};
-
+        public static Users users = new Users();
         private readonly IConfiguration configuartion;
 
         private readonly UsersApplicationDbContext _usersDbContext;
+
+        public IEnumerable<Users> GetUsers()
+        {
+            return _usersDbContext.tblUserRegistor.ToList();
+        }
         public JWTManagerRepository(IConfiguration iconfiguration, UsersApplicationDbContext usersDbContext)
         {
             configuartion = iconfiguration;
             _usersDbContext = usersDbContext;
         }
 
-        
-        public Tokens Authenticate(Users users, bool value)
+       
+        public Tokens Authenticate(Users users)//User login Method
+        {
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var tokenKey = Encoding.UTF8.GetBytes(configuartion["JWT:Key"]);
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new Claim[]
+                {
+                    new Claim(ClaimTypes.Name,users.Email),
+                     new Claim(ClaimTypes.Role,users.Role.ToString())
+                }),
+                Expires = DateTime.UtcNow.AddDays(1),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenKey), SecurityAlgorithms.HmacSha256Signature)
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return new Tokens { Token = tokenHandler.WriteToken(token),
+                Role = users.Role, Email = users.Email, UserID = users.UserID };
+        }
+        public string  Authenticate(Users users, bool value)//user Registration Method
         {
             if (value)
             {
-                 Users userecordemail = _usersDbContext.tblUserRegistor.ToList().Where(o=>o.Email==users.Email || o.Mobile==users.Mobile).FirstOrDefault();
+                Users userecordemail = _usersDbContext.tblUserRegistor.ToList().Where(o=>o.Email==users.Email ).FirstOrDefault();
                 if (userecordemail != null)
                 {
                     return null;
@@ -44,26 +63,11 @@ namespace Authenticate.ViewModels
                 _usersDbContext.tblUserRegistor.Add(users);
                 _usersDbContext.SaveChanges();
             }
-            Users userecord= _usersDbContext.tblUserRegistor.ToList().Where((x => x.Email == users.Email && x.Password == users.Password)).FirstOrDefault();
-            if (userecord ==null)
-            {
-                return null;
-            }
-            
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var tokenKey = Encoding.UTF8.GetBytes(configuartion["JWT:Key"]);
 
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject=new ClaimsIdentity(new Claim[]
-                {
-                    new Claim(ClaimTypes.Name,users.Email)
-                }),
-                Expires=DateTime.UtcNow.AddMinutes(10),
-                SigningCredentials=new SigningCredentials(new SymmetricSecurityKey(tokenKey),SecurityAlgorithms.HmacSha256Signature)
-            };
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            return new Tokens { Token = tokenHandler.WriteToken(token),Role= userecord.Role,Email=userecord.Email,UserID=userecord.UserID };
+            return "Registered Successfully";
+
         }
+       
+
     }
 }

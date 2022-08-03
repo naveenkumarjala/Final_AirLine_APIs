@@ -12,5 +12,7 @@ namespace Authenticate.ViewModels
         public int Role { set; get; }
         public string Email { get; set; }
         public int UserID { set; get; }
+        //public byte[] PasswordHash { get; set; }
+        //public byte[] PasswordSalt { get; set; }
     }
 }

@@ -5,6 +5,7 @@ C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Authenticate.d
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Authenticate.runtimeconfig.json
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Authenticate.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Authenticate.pdb
+C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Consul.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Humanizer.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
@@ -14,6 +15,7 @@ C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.Enti
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -22,6 +24,10 @@ C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.Iden
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Scrutor.dll
+C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\cogdotnet1086\source\repos\Authenticate\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -67,6 +73,7 @@ C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Authenticate.runtimeconfig.json
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Authenticate.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Authenticate.pdb
+C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Consul.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Humanizer.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
@@ -76,6 +83,7 @@ C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -84,6 +92,10 @@ C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Scrutor.dll
+C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
