@@ -98,8 +98,6 @@ C:\Users\cogdotnet1086\source\repos\Airline.Inventory\obj\Debug\net6.0\refint\Ai
 C:\Users\cogdotnet1086\source\repos\Airline.Inventory\obj\Debug\net6.0\Airline.Inventory.pdb
 C:\Users\cogdotnet1086\source\repos\Airline.Inventory\obj\Debug\net6.0\Airline.Inventory.genruntimeconfig.cache
 C:\Users\cogdotnet1086\source\repos\Airline.Inventory\obj\Debug\net6.0\ref\Airline.Inventory.dll
-C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\runtimes\linux-arm64\native\librdkafka.so
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\appsettings.json
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\Airline.Inventory.exe
@@ -139,6 +137,7 @@ C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debu
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -147,6 +146,7 @@ C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debu
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\System.Security.Permissions.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\runtimes\linux-arm64\native\librdkafka.so
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\runtimes\linux-x64\native\alpine-librdkafka.so
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\runtimes\linux-x64\native\centos6-librdkafka.so
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Airline.Inventory\bin\Debug\net6.0\runtimes\linux-x64\native\centos7-librdkafka.so

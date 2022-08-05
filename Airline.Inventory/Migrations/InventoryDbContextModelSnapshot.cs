@@ -73,7 +73,7 @@ namespace Airline.Inventory.Migrations
                             Address = "Hyderabad",
                             ContactNumber = "9948757854",
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2022, 8, 2, 18, 48, 3, 441, DateTimeKind.Local).AddTicks(347),
+                            CreatedDate = new DateTime(2022, 8, 4, 10, 26, 34, 231, DateTimeKind.Local).AddTicks(8387),
                             Name = "Cargo"
                         },
                         new
@@ -83,7 +83,7 @@ namespace Airline.Inventory.Migrations
                             Address = "Banglore",
                             ContactNumber = "9948077376",
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2022, 8, 2, 18, 48, 3, 441, DateTimeKind.Local).AddTicks(352),
+                            CreatedDate = new DateTime(2022, 8, 4, 10, 26, 34, 231, DateTimeKind.Local).AddTicks(8395),
                             Name = "Indigo"
                         });
                 });
@@ -133,7 +133,7 @@ namespace Airline.Inventory.Migrations
                             FlightID = 1,
                             AirLineId = 1,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2022, 8, 2, 18, 48, 3, 441, DateTimeKind.Local).AddTicks(373),
+                            CreatedDate = new DateTime(2022, 8, 4, 10, 26, 34, 231, DateTimeKind.Local).AddTicks(8434),
                             FlightName = "Enfield",
                             FlightNumber = "V12345"
                         },
@@ -142,7 +142,7 @@ namespace Airline.Inventory.Migrations
                             FlightID = 2,
                             AirLineId = 2,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2022, 8, 2, 18, 48, 3, 441, DateTimeKind.Local).AddTicks(379),
+                            CreatedDate = new DateTime(2022, 8, 4, 10, 26, 34, 231, DateTimeKind.Local).AddTicks(8444),
                             FlightName = "FZ-MR",
                             FlightNumber = "VF12345"
                         });
@@ -250,9 +250,9 @@ namespace Airline.Inventory.Migrations
                             BClassCount = 50,
                             BclassAvailCount = 50,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2022, 8, 2, 18, 48, 3, 441, DateTimeKind.Local).AddTicks(166),
+                            CreatedDate = new DateTime(2022, 8, 4, 10, 26, 34, 231, DateTimeKind.Local).AddTicks(7896),
                             Discount = 10m,
-                            EndDate = new DateTime(2022, 8, 12, 18, 48, 3, 441, DateTimeKind.Local).AddTicks(159),
+                            EndDate = new DateTime(2022, 8, 14, 10, 26, 34, 231, DateTimeKind.Local).AddTicks(7885),
                             EndTime = "12.00 PM",
                             FlightNumber = "V12345",
                             FromPlace = "BASAR",
@@ -263,7 +263,7 @@ namespace Airline.Inventory.Migrations
                             NBclassAvailableCount = 100,
                             Rows = 5,
                             ScheduledDays = 8,
-                            StartDate = new DateTime(2022, 8, 7, 18, 48, 3, 441, DateTimeKind.Local).AddTicks(138),
+                            StartDate = new DateTime(2022, 8, 9, 10, 26, 34, 231, DateTimeKind.Local).AddTicks(7849),
                             TicketCoopun = "CP10",
                             TicketCost = 2000m,
                             ToPlace = "HYDERABAD",

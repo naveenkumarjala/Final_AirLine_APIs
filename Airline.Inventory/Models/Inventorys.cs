@@ -40,7 +40,7 @@ namespace Airline.Inventory.Models
         [Required]
         public int NBClassCount { get; set; }
         [Required]
-        public int NBclassAvailableCount { set; get; }
+        public int NBclassAvailableCount { get; set; }
         [Required]
         public decimal TicketCost { get; set; }
         [Required]

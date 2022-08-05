@@ -21,7 +21,7 @@ namespace Authenticate.Controllers
         }
 
         [HttpGet]
-        [Route("get-all-users"), Authorize(Roles = "1")]
+        [Route("get-all-users")/*, Authorize(Roles = "1")*/]
         public IActionResult GetUsers()
         {
             try

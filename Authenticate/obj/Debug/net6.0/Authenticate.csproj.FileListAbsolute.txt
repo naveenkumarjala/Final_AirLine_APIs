@@ -66,6 +66,7 @@ C:\Users\cogdotnet1086\source\repos\Authenticate\obj\Debug\net6.0\refint\Authent
 C:\Users\cogdotnet1086\source\repos\Authenticate\obj\Debug\net6.0\Authenticate.pdb
 C:\Users\cogdotnet1086\source\repos\Authenticate\obj\Debug\net6.0\Authenticate.genruntimeconfig.cache
 C:\Users\cogdotnet1086\source\repos\Authenticate\obj\Debug\net6.0\ref\Authenticate.dll
+C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\appsettings.json
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\Authenticate.exe
@@ -107,7 +108,6 @@ C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\System.Security.Permissions.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\System.Windows.Extensions.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\cogdotnet1086\source\repos\FlightBookingsAPI\Authenticate\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll

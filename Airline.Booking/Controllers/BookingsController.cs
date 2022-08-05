@@ -321,10 +321,11 @@ namespace Airline.Booking.Controllers
             try
             {
                 IEnumerable<Bookings> bookings = _userRepository.GetBookings().ToList()
-                                                .Where(o => o.TicketID.ToUpper()== TicketID.ToUpper() || o.BookingID.ToUpper()==TicketID.ToUpper());
+                                                .Where(o => o.TicketID.ToUpper()== TicketID.ToUpper() 
+                                                || o.BookingID.ToUpper()==TicketID.ToUpper() || o.EmailID == TicketID);
                 var flights = (from p in bookings
 
-                               where (p.TicketID == TicketID || p.BookingID==TicketID)
+                              // where (p.TicketID == TicketID || p.BookingID==TicketID || p.EmailID == TicketID)
                                select new
                                {
                                    p.TicketID,
